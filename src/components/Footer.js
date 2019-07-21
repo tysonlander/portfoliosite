@@ -3,6 +3,7 @@ import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
+      <h2>Get In Touch</h2>
       <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
@@ -15,12 +16,12 @@ export default function Footer() {
           );
         })}
       </ul>
-      <ul className="copyright">
+      {/* <ul className="copyright">
         <li>&copy; Spectral</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
-      </ul>
+      </ul> */}
     </footer>
   );
 }

@@ -1086,7 +1086,7 @@
 			$j: 0.075 * $i;
 
 			&:nth-child(#{$i}) {
-				background-color: rgba(0,0,0, $j);
+				background-color: rgba(0, 0, 0, $j);
 			}
 		}
 
@@ -1339,7 +1339,9 @@
 		}
 
 		&.style1 {
-			@include wrapper(accent1);
+			// background: #1d65a3;
+			background: rgb(0, 167, 153);
+			// @include wrapper(accent1);
 		}
 
 		&.style2 {
@@ -1930,4 +1932,18 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+	}
+
+	.section-divider {
+		height: 5vh;
+		background-clip: #fff;
+	}
+
+	.section-custom-header {
+		// background-color: #3A434C;
+		height: 100%;
+	}
+
+	#personal-image{
+		height: 40vh;
 	}

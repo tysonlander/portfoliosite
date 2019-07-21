@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-iPad_1">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="iPad_1" data-name="iPad – 1" clip-path="url(#clip-iPad_1)">
+    <rect width="100" height="100" fill="#fff"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(-18 -7)" fill="#444" stroke="#707070" stroke-width="1">
+      <rect width="136" height="107" stroke="none"/>
+      <rect x="0.5" y="0.5" width="135" height="106" fill="none"/>
+    </g>
+    <text id="_T_" data-name="&lt;T&gt;" transform="translate(-25.125 57.552) rotate(14)" fill="#fff" font-size="77" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">&lt;T&gt;</tspan></text>
+  </g>
+</svg>
