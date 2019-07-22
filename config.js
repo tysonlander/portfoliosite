@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#28343C',
   // manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  // manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Tyson Lander',
   subHeading: 'Full time Web Developer. Part time athlete, chef, traveler  ',

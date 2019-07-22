@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
+// import pic1 from '../assets/images/pic01.png';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
@@ -94,7 +94,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src='https://moolapics.s3-us-west-1.amazonaws.com/moola-application-frontview.png' alt="" />
         </div>
         <div className="content">
           <h2>
@@ -116,7 +116,7 @@ const IndexPage = () => (
 {/* Group project section  */}
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src='https://moolapics.s3-us-west-1.amazonaws.com/jobber-dashboard-desktopturned.png' alt="" />
         </div>
         <div className="content">
           <h2>
